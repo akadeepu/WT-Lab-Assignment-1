@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up Form</title>
+    </head>
+    <body text="#ffffff">
+        
+        <form>
+            <table border="0" cellspacing="0" align="center" bgcolor="black" cellpadding="5px">
+                <tr>
+                    <td colspan="2" bgcolor="orange"><b>Sign Up</b></td>
+                </tr>
+                <tr>
+                    <td>First Name</td>
+                    <td>
+                        <input type="text" placeholder="Enter First Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td>
+                        <input type="text" placeholder="Enter Last Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Screen Name</td>
+                    <td>
+                        <input type="text" placeholder="Enter Screen Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td>
+                        <select name="month" id="dob">
+                            <option value="Jan" selected>January</option>
+                            <option value="Feb">February</option>
+                            <option value="Mar">March</option>
+                            <option value="Apr">April</option>
+                            <option value="May">May</option>
+                            <option value="Jun">June</option>
+                            <option value="Jul">July</option>
+                        </select>
+                        <select name="day" id="d">
+                            <option selected>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                        <select name="year" id="yr">
+                            <option value="">2002</option>
+                            <option value="">2003</option>
+                            <option value="">2004</option>
+                            <option value="">2005</option>
+                        </select>
+                    </td>
+                    <!--<td><input type="date"></td>-->
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender"> Male
+                        <input type="radio" name="gender"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td>
+                        <select name="country">
+                            <option value="Nep">Nepal</option>
+                            <option value="Nep">India</option>
+                            <option value="Nep">China</option>
+                            <option value="Nep">Pakistan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td><input type="email" placeholder="Enter E-mail"></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="text" placeholder="Enter Phone"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" ></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="checkbox">I Agree to the Terms of Use</td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right"><input type="submit" value="Submit"> <input type="reset" value="Cancel" bgcolor="red"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
