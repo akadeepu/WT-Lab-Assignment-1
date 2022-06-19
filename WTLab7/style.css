@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.heading{
+	font-size: 35px;
+	color: blueviolet;
+}
+.signup{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+input{
+	width: 500px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	color: blueviolet;
+	margin-top: 15px;
+}
+
+.signup-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 20vh;
+	left: 35vw;
+}
+.submit-container{
+	display: flex;
+	justify-content: center;
+}
+.submit-btn{
+	width: 15vw !important;
+	border-radius: 10px;
+
+}
